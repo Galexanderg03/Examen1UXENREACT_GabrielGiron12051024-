@@ -36,11 +36,12 @@ function App() {
         <div className="carousel-item active">
         <img src="imagen1.jpg" className="d-block w-100" alt="Imagen 1" />
         </div>
-
-          <div className="carousel-item" style={{ backgroundImage: "url('imagen2.jpg')" }}>
-          </div>
-          <div className="carousel-item" style={{ backgroundImage: "url('imagen3.jpg')" }}>
-          </div>
+        <div className="carousel-item active">
+        <img src="imagen2.jpg" className="d-block w-100" alt="Imagen 1" />
+        </div>
+        <div className="carousel-item active">
+        <img src="imagen3.jpg" className="d-block w-100" alt="Imagen 1" />
+        </div>
         </div>
         <a className="carousel-control-prev" href="#inicio" data-slide="prev">
           <span className="carousel-control-prev-icon"></span>
